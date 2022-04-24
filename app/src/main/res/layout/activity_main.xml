@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg1">
+
+    <TextView
+        android:id="@+id/textViewIdentitas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Iqbal Pamula Ba'iq - 20.12.1573"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="10sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:gravity="center"
+        android:layout_gravity="bottom"/>
+
+    <TextView
+        android:id="@+id/textViewSelamatDatang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:gravity="center"
+        android:text="Selamat Datang"
+        android:textColor="@color/black"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        android:layout_marginTop="400sp"
+        android:layout_marginBottom="10sp"/>
+
+    <Button
+        android:id="@+id/buttonStarted"
+        android:layout_width="250sp"
+        android:layout_height="70sp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="160sp"
+        android:backgroundTint="#FF5B7E"
+        android:text="Mulai Sekarang"
+        app:cornerRadius="20sp"/>
+
+</FrameLayout>
